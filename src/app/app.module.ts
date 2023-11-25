@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSelectModule } from '@angular/material/select';
 
+import { AngularSplitModule } from 'angular-split';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +15,8 @@ import { MatSelectModule } from '@angular/material/select';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatSelectModule
+    MatSelectModule,
+    AngularSplitModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
